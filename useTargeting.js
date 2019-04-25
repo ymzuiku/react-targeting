@@ -28,7 +28,7 @@ export default (id, defaultValue, update) => {
         updateValue(params);
       }
     },
-    [id],
+    [id, value],
   );
 
   return [value, targeting];
