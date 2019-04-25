@@ -8,10 +8,13 @@
 cd your-project/components
 ```
 
-执行以下命令, 将会只保留组件代码
+拷贝并执行以下命令, 将会只克隆组件代码
 
 ```sh
-git clone --depth=1 https://github.com/ymzuiku/react-targeting.git && rm -rf react-targeting/.git react-targeting/.gitignore
+clone-by-ymzuiku(){
+  git clone --depth=1 https://github.com/ymzuiku/$1.git && rm -rf $1/.git $1/.gitignore
+}
+clone-by-ymzuiku react-targeting
 ```
 
 直接引用
