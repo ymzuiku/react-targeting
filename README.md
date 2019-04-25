@@ -17,18 +17,14 @@ git clone --depth=1 https://github.com/ymzuiku/react-targeting.git && rm -rf rea
 直接引用
 
 ```js
-import { ... } from "components/react-targeting";
-```
-
-react-targeting 分别提供了三种模式的使用:
-
-```js
 import {
   Targeting,
   useTargeting,
   withTargeting
 } from "components/react-targeting";
 ```
+
+react-targeting 分别提供了三种模式的使用:
 
 - Targeting 基于 renderProps 的模式
 - useTargeting 基于 hooks 的模式
